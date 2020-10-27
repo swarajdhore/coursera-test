@@ -46,3 +46,58 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+
+* {
+	box-sizing: border-box;
+	font-family: cursive;
+}
+h1 {
+	text-align: center;
+}
+.box{
+	background-color: gray;
+	border: 3px solid black;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.content-name{
+	float: right;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	width: 110px;
+	text-align: center;
+	font-size: 125%;
+}
+#name1 {
+	background-color: #F08080;
+}
+#name2 {
+	background-color: #CD5C5C;
+}
+#name3 {
+	background-color: #FFE4B5;
+}
+.content {
+	margin: 8px;
+	margin-top: 30px;
+}
+@media (max-width: 761) {
+	.col-sm-12 {
+		width: 100%;
+	}
+}
+@media (min-width: 762px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	#last {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
