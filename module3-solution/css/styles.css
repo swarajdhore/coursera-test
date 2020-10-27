@@ -97,23 +97,7 @@ h1 {
 	margin-bottom: 20px;
 	margin-right: 20px;
 }
-.content-name{
-	float: right;
-	border-bottom: 3px solid black;
-	border-left: 3px solid black;
-	width: 110px;
-	text-align: center;
-	font-size: 125%;
-}
-#name1 {
-	background-color: #F08080;
-}
-#name2 {
-	background-color: #CD5C5C;
-}
-#name3 {
-	background-color: #FFE4B5;
-}
+
 .content {
 	margin: 8px;
 	margin-top: 30px;
